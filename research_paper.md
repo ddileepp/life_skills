@@ -1,139 +1,81 @@
-# SOLID Principles Refactoring Report
+# SOLID Principles – Refactoring Experience Report
 
-## Scenario Overview
+## 🚀 Project Background
 
-I recently joined a new software project where the existing codebase was difficult to understand and maintain. The code had tightly coupled classes and mixed responsibilities. Even small changes caused issues in multiple places. To improve maintainability and scalability, my team lead asked me to study the SOLID principles and refactor the codebase. SOLID helps in designing clean, flexible, and testable object-oriented software.
+When I joined this project, the codebase was difficult to understand and maintain. Many classes were handling multiple responsibilities, and small changes were affecting different parts of the system. It was hard to debug issues and risky to add new features.
 
-## What is SOLID
+To improve the structure and maintainability of the application, I studied the SOLID principles and refactored the code accordingly. After applying these principles, the code became cleaner, more modular, and easier to extend.
 
-SOLID represents five object-oriented design principles:
+---
 
-* Single Responsibility Principle
-* Open Closed Principle
-* Liskov Substitution Principle
-* Interface Segregation Principle
-* Dependency Inversion Principle
+## 📌 What is SOLID?
 
-## Single Responsibility Principle (SRP)
+SOLID is a set of five object-oriented design principles that help developers write clean, scalable, and maintainable software.
 
-A class should have only one reason to change.
+It stands for:
 
-### Example
+- Single Responsibility Principle  
+- Open Closed Principle  
+- Liskov Substitution Principle  
+- Interface Segregation Principle  
+- Dependency Inversion Principle  
 
-~~~
-class UserManager {
-  createUser(user) {
-    console.log("User created:", user);
-  }
-}
+---
 
-class EmailService {
-  sendEmail(user) {
-    console.log("Email sent to:", user);
-  }
-}
-~~~
+## 1️⃣ Single Responsibility Principle (SRP)
 
-## Open Closed Principle (OCP)
+A class should have only one responsibility or purpose.
 
-Software entities should be open for extension but closed for modification.
+Earlier, some classes were doing multiple tasks at once, which made them hard to maintain. After refactoring, each class now focuses on one specific task. This makes the system easier to test and modify.
 
-### Example
+---
 
-~~~
-class Discount {
-  calculate(price) {
-    return price;
-  }
-}
+## 2️⃣ Open Closed Principle (OCP)
 
-class RegularDiscount extends Discount {
-  calculate(price) {
-    return price * 0.9;
-  }
-}
+Software components should be open for extension but closed for modification.
 
-class FestivalDiscount extends Discount {
-  calculate(price) {
-    return price * 0.8;
-  }
-}
-~~~
+Instead of changing existing code whenever a new feature is needed, we extend the functionality by adding new components. This reduces the risk of breaking existing features.
 
-## Liskov Substitution Principle (LSP)
+---
 
-Subclasses should be replaceable for their base classes without breaking functionality.
+## 3️⃣ Liskov Substitution Principle (LSP)
 
-### Example
+Subclasses should behave in a way that does not break the expectations of the base class.
 
-~~~
-class Bird {
-  fly() {
-    console.log("Bird is flying");
-  }
-}
+In simple words, if we replace a parent class with its child class, the program should still work correctly without unexpected behavior.
 
-class Sparrow extends Bird {
-  fly() {
-    console.log("Sparrow is flying");
-  }
-}
-~~~
+---
 
-## Interface Segregation Principle (ISP)
+## 4️⃣ Interface Segregation Principle (ISP)
 
-Clients should not be forced to depend on methods they do not use.
+Classes should not be forced to depend on methods they do not use.
 
-### Example
+Instead of creating large, complex classes, responsibilities are divided into smaller and more specific components. This keeps the design simple and focused.
 
-~~~
-class Printer {
-  print() {
-    console.log("Printing document");
-  }
-}
+---
 
-class Scanner {
-  scan() {
-    console.log("Scanning document");
-  }
-}
-~~~
-
-## Dependency Inversion Principle (DIP)
+## 5️⃣ Dependency Inversion Principle (DIP)
 
 High-level modules should depend on abstractions, not concrete implementations.
 
-### Example
+Instead of tightly connecting one part of the system to a specific implementation (like a specific database), we design the system in a flexible way so that components can be changed without affecting the overall structure.
 
-~~~
-class Database {
-  connect() {}
-}
+---
 
-class MySQLDatabase extends Database {
-  connect() {
-    console.log("Connected to MySQL Database");
-  }
-}
+## 💡 What I Learned
 
-class UserService {
-  constructor(database) {
-    this.database = database;
-  }
+Applying SOLID principles helped me:
 
-  connectDatabase() {
-    this.database.connect();
-  }
-}
-~~~
+- Improve code readability  
+- Reduce tight coupling  
+- Make the application easier to extend  
+- Write cleaner and more maintainable code  
+- Think more clearly about system design  
 
-## Conclusion
+---
 
-Applying SOLID principles improves code readability, reduces coupling, and makes applications easier to maintain and extend. These principles are essential for building scalable and reliable software systems.
+## 🏁 Conclusion
 
-## References
+Refactoring the project using SOLID principles significantly improved the structure and maintainability of the codebase. I now understand the importance of designing software thoughtfully instead of just making it work.
 
-* https://www.digitalocean.com/community/conceptual_articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
-* https://www.youtube.com/playlist?list=PL6n9fhu94yhXjG1w2blMXUzyDrZ_eyOme
-* https://guides.github.com/features/mastering-markdown/
+These principles will help me build scalable and reliable applications in the future.
