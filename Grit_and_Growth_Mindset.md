@@ -19,6 +19,7 @@ The video explains that a “growth mindset” means believing your abilities ca
 
 Internal Locus of Control means believing that your results depend mostly on your own actions and effort.  
 The key point is to focus on what you can control instead of blaming outside factors to stay motivated
+
 ---
 
 ## Question 4  
