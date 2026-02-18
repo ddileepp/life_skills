@@ -1,15 +1,17 @@
 # Mindset & Learning Reflection
 
 ## Question 1  
-**Paraphrase the Grit video (1–2 lines).**  
+**Paraphrase the Grit video.**  
 
 Success is not mainly about talent or intelligence, but about grit — the ability to stay passionate and keep working consistently toward long-term goals without giving up. People who persevere over time achieve more than those who rely only on natural ability.
+
 ---
 
 ## Question 2  
-**Paraphrase the Growth Mindset introduction video (1–2 lines).**  
+**Paraphrase the Growth Mindset introduction video.**   
 
 The video explains that a “growth mindset” means believing your abilities can improve through effort and learning, and that challenges and mistakes are opportunities to grow rather than signs of failure. It contrasts this with a fixed mindset, where people think skills are fixed and cannot be changed
+
 ---
 
 ## Question 3  
@@ -21,7 +23,7 @@ The key point is to focus on what you can control instead of blaming outside fac
 ---
 
 ## Question 4  
-**Key points to build a Growth Mindset (no explanation).**
+**Key points to build a Growth Mindset.**
 
 - Believe abilities can improve with effort.  
 - Embrace challenges.  
