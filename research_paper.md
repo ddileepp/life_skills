@@ -22,7 +22,7 @@ It stands for:
 
 ---
 
-## 1️⃣ Single Responsibility Principle (SRP)
+## 1 Single Responsibility Principle (SRP)
 
 A class should have only one responsibility or purpose.
 
@@ -30,7 +30,7 @@ Earlier, some classes were doing multiple tasks at once, which made them hard to
 
 ---
 
-## 2️⃣ Open Closed Principle (OCP)
+## 2 Open Closed Principle (OCP)
 
 Software components should be open for extension but closed for modification.
 
@@ -38,7 +38,7 @@ Instead of changing existing code whenever a new feature is needed, we extend th
 
 ---
 
-## 3️⃣ Liskov Substitution Principle (LSP)
+## 3 Liskov Substitution Principle (LSP)
 
 Subclasses should behave in a way that does not break the expectations of the base class.
 
@@ -46,7 +46,7 @@ In simple words, if we replace a parent class with its child class, the program 
 
 ---
 
-## 4️⃣ Interface Segregation Principle (ISP)
+## 4 Interface Segregation Principle (ISP)
 
 Classes should not be forced to depend on methods they do not use.
 
@@ -54,7 +54,7 @@ Instead of creating large, complex classes, responsibilities are divided into sm
 
 ---
 
-## 5️⃣ Dependency Inversion Principle (DIP)
+## 5 Dependency Inversion Principle (DIP)
 
 High-level modules should depend on abstractions, not concrete implementations.
 
@@ -68,7 +68,7 @@ Applying SOLID principles helped me:
 
 - Improve code readability  
 - Reduce tight coupling  
-- Make the application easier to extend  
+- Make the application easierto extend  
 - Write cleaner and more maintainable code  
 - Think more clearly about system design  
 
