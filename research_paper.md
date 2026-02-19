@@ -77,5 +77,3 @@ Applying SOLID principles helped me:
 ## Conclusion
 
 Refactoring the project using SOLID principles significantly improved the structure and maintainability of the codebase. I now understand the importance of designing software thoughtfully instead of just making it work.
-
-These principles will help me build scalable and reliable applications in the future.
