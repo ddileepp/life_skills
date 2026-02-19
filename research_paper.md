@@ -1,6 +1,6 @@
 # SOLID Principles – Refactoring Experience Report
 
-## 🚀 Project Background
+## Project Background
 
 When I joined this project, the codebase was difficult to understand and maintain. Many classes were handling multiple responsibilities, and small changes were affecting different parts of the system. It was hard to debug issues and risky to add new features.
 
@@ -8,7 +8,7 @@ To improve the structure and maintainability of the application, I studied the S
 
 ---
 
-## 📌 What is SOLID?
+## What is SOLID?
 
 SOLID is a set of five object-oriented design principles that help developers write clean, scalable, and maintainable software.
 
@@ -62,7 +62,7 @@ Instead of tightly connecting one part of the system to a specific implementatio
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 Applying SOLID principles helped me:
 
@@ -74,7 +74,7 @@ Applying SOLID principles helped me:
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 Refactoring the project using SOLID principles significantly improved the structure and maintainability of the codebase. I now understand the importance of designing software thoughtfully instead of just making it work.
 
