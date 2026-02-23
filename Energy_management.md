@@ -45,8 +45,6 @@
 - Keep the room cool and dark  
 ---
 
-## 5. Brain-Changing Benefits of Exercise
-
 ### Question 6: Paraphrase – Brain Changing Benefits of Exercise (Only Points)
 
 - Improves memory  
