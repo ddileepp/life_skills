@@ -13,7 +13,6 @@
 
 
 - I usually feel stressed when I have deadlines, exams, or too many tasks at once. Learning something completely new can also make me stressed at first. Sometimes I feel stressed when I overthink about the future or when things don’t go as planned. But I also know that a little stress pushes me to improve and do better
-
 ---
 
 ### Question 3: How do you know you are in the Excitement quadrant?
@@ -45,16 +44,14 @@
 - Keep the room cool and dark  
 ---
 
-### Question 6: Paraphrase – Brain Changing Benefits of Exercise (Only Points)
-
+### Question 6: Paraphrase – Brain Changing Benefits of Exercise
 - Improves memory  
 - Increases focus  
 - Boosts mood  
 - Reduces stress and anxiety  
 - Promotes brain cell growth  
-- Protects against brain aging  
-- Enhances overall brain performance  
-
+- Protects against brain aging
+- Enhances overall brain performance
 ---
 
 ### Question 7: Steps to Exercise More
