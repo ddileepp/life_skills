@@ -5,8 +5,6 @@
 
 One thing that really stood out to me was the idea of over-communicating. I used to think updating the team occasionally was enough, but I now understand how important it is to immediately inform everyone if requirements change or if something might delay the deadline.  
 
-I also hadn’t thought much about small habits like not missing calls and calling back within 5–10 minutes. It seems simple, but it actually shows responsibility and professionalism.  
-
 Another valuable learning for me was how to ask better questions. Instead of just saying “it’s not working,” I realized it’s important to clearly explain the problem, mention what I’ve already tried, and share screenshots or code snippets. That makes it much easier for others to help.
 
 ---
